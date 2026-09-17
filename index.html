@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="DBaaS — Deep Bass as a Service. Independent transmissions.">
+  <title>DBaaS — Deep Bass as a Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="DBaaS home">
+      <strong>DBaaS</strong>
+      <span>DEEP BASS AS A SERVICE</span>
+    </a>
+    <nav>
+      <a href="#catalog">CATALOG</a>
+      <a href="#artists">ARTISTS</a>
+      <a href="#transmissions">TRANSMISSIONS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">INDEPENDENT TRANSMISSIONS<br>FROM SOMEWHERE BELOW</p>
+        <h1>the signal existed<br>before it was received.</h1>
+        <p class="stamp">DBaaS.music / FIRST TRANSMISSION 2026</p>
+      </div>
+      <div class="signal" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </section>
+
+    <section id="catalog" class="section">
+      <div class="section-head"><span>01</span><h2>CATALOG</h2></div>
+
+      <article class="release" id="dbaas001">
+        <img src="assets/dbaas001.jpg" alt="orange_ — signals_in_transit cover">
+        <div class="release-copy">
+          <p class="catalog-no">DBAAS<span>001</span> / 2026</p>
+          <h3>orange_<br><em>signals_in_transit</em></h3>
+          <p class="tags">AMBIENT / IDM / DUB TECHNO / EXPERIMENTAL</p>
+          <p class="description">Sixteen transmissions. Signals moving between sender and receiver, sometimes arriving intact.</p>
+          <button class="track-toggle" data-target="tracks001">TRACKLIST +</button>
+          <ol class="tracklist" id="tracks001">
+            <li>Fragments of Transmissions</li><li>No Receiver</li><li>Wrong Moon</li>
+            <li>Almost Here</li><li>Nothing Passed</li><li>Name</li><li>Other Side</li>
+            <li>Still Arriving</li><li>Before Signal</li><li>Why Am I?</li>
+            <li>A Quiet Error</li><li>Someone Listening</li><li>After Tomorrow</li>
+            <li>The Missing Room</li><li>Without Leaving</li><li>Signal Lost</li>
+          </ol>
+          <div class="release-links">
+            <a href="#" class="disabled" title="Add streaming URL">LISTEN ↗</a>
+            <a href="#" class="disabled" title="Add store URL">BUY ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="release reverse" id="dbaas002">
+        <img src="assets/dbaas002.jpg" alt="orange_ — Void cover">
+        <div class="release-copy">
+          <p class="catalog-no">DBAAS<span>002</span> / 2026</p>
+          <h3>orange_<br><em>Void</em></h3>
+          <p class="tags">AMBIENT / DRONE / EXPERIMENTAL</p>
+          <p class="description">Three states of the same absence. No drums. No destination.</p>
+          <ol class="mini-tracks">
+            <li>morning void</li><li>midnight void</li><li>noon void</li>
+          </ol>
+          <div class="release-links">
+            <a href="#" class="disabled" title="Add streaming URL">LISTEN ↗</a>
+            <a href="#" class="disabled" title="Add store URL">BUY ↗</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="artists" class="section split">
+      <div class="section-head"><span>02</span><h2>ARTISTS</h2></div>
+      <div class="large-line">orange_</div>
+      <p>ambient / idm / dub techno / signals in transit</p>
+    </section>
+
+    <section id="transmissions" class="section">
+      <div class="section-head"><span>03</span><h2>TRANSMISSIONS</h2></div>
+      <div class="log">
+        <div><time>2026</time><span>DBAAS002</span><b>orange_ — Void</b></div>
+        <div><time>2026</time><span>DBAAS001</span><b>orange_ — signals_in_transit</b></div>
+        <div><time>2026</time><span>SIGNAL</span><b>DBaaS.music / first transmission</b></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head"><span>04</span><h2>ABOUT</h2></div>
+      <p class="big">Deep Bass as a Service.</p>
+      <p>DBaaS is an independent music label for electronic work that lives somewhere between signal, space and repetition.</p>
+      <p class="quiet">No recommendations. Just music.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head"><span>05</span><h2>TRANSMIT</h2></div>
+      <div class="transmit-wrap">
+        <div class="transmit-intro">
+          <p class="big">Send a signal.</p>
+          <p>Demos / licensing / press / other.</p>
+          <p class="quiet-small">For demos: links only. No attachments.</p>
+        </div>
+        <form class="transmit-form" action="https://formspree.io/f/xnpnqrol" method="POST">
+          <label>FROM
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>RETURN SIGNAL
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>SUBJECT
+            <select name="subject">
+              <option>Demos</option>
+              <option>Licensing</option>
+              <option>Press</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>MESSAGE
+            <textarea name="message" rows="7" required></textarea>
+          </label>
+          <input type="hidden" name="_subject" value="New transmission via DBaaS.music">
+          <button type="submit">SEND SIGNAL →</button>
+          <p class="form-note">Transmission routed privately.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>DBaaS.music</span>
+    <span>FIRST TRANSMISSION 2026</span>
+    <span class="status">● SIGNAL ACTIVE</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
